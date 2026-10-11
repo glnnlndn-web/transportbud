@@ -3,18 +3,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        neon: {
-          cyan: '#00d9ff',
-          pink: '#ff006e',
-          lime: '#39ff14',
-          blue: '#0080ff',
-          purple: '#d946ef',
-        },
-        dark: {
-          bg: '#0a0e27',
-          card: '#1a1f3a',
-          border: '#2d3561',
-        },
+        'neon-cyan': '#00d9ff',
+        'neon-pink': '#ff006e',
+        'neon-lime': '#39ff14',
+        'neon-blue': '#0080ff',
+        'neon-purple': '#d946ef',
+        'dark-bg': '#0a0e27',
+        'dark-card': '#1a1f3a',
+        'dark-border': '#2d3561',
       },
       boxShadow: {
         neon: '0 0 20px rgba(0, 217, 255, 0.5)',
