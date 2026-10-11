@@ -1,13 +1,1 @@
-name = "transportbud-allocators"
-main = "src/main.jsx"
-compatibility_date = "2024-01-01"
-
-[env.production]
-vars = { ENVIRONMENT = "production" }
-
-[build]
-command = "npm install && npm run build"
-directory = "dist"
-
-[build.upload]
-format = "service-worker"
+# This file intentionally left empty - Cloudflare Pages uses package.json scripts
